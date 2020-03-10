@@ -73,4 +73,5 @@ public class ProductsType {
         return this.product;
     }
 
+    
 }

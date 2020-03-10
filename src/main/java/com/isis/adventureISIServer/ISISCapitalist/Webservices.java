@@ -5,9 +5,11 @@
  */
 package com.isis.adventureISIServer.ISISCapitalist;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.xml.bind.JAXBException;
@@ -28,10 +30,11 @@ public class Webservices {
         @GET
         @Path("world")
         @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
-        public Response getWorld() throws JAXBException {
-            return Response.ok(services.readWorldFromXML()).build();
+        public Response getXML(@Context HttpServletRequest request) throws JAXBException{
+            String username=request.getHeader("X-user");
+            return Response.ok(services.readWorldFromXML(username)).build(); 
+            }
+            
         }
-
-    }
 
 

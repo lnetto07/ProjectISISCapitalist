@@ -19,95 +19,372 @@ and open the template in the editor.
     <lastupdate></lastupdate>
     <products>
         <product>
-            <id></id>
-            <name></name>
-            <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <id>1</id>
+            <name>Madeleine</name>
+            <logo>madeleine.jpg</logo>
+            <cout>0</cout>
+            <croissance>1,07</croissance>
+            <revenu>1</revenu>
+            <vitesse>500</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
                 <pallier>
-                    <name></name>
-                    <logo></logo>
-                    <seuil></seuil>
-                    <idcible></idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked></unlocked>
+                    <name>1</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>10</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name></name>
-                    <logo></logo>
-                    <seuil></seuil>
-                    <idcible></idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked></unlocked>
+                    <name>2</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>25</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name></name>
-                    <logo></logo>
-                    <seuil></seuil>
-                    <idcible></idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked></unlocked>
+                    <name>3</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>50</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name></name>
-                    <logo></logo>
-                    <seuil></seuil>
-                    <idcible></idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked></unlocked>
+                    <name>4</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>80</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name></name>
-                    <logo></logo>
-                    <seuil></seuil>
-                    <idcible></idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked></unlocked>
+                    <name>5</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>100</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
-                    <name></name>
-                    <logo></logo>
-                    <seuil></seuil>
-                    <idcible></idcible>
-                    <ratio></ratio>
-                    <typeratio></typeratio>
-                    <unlocked></unlocked>
+                    <name>6</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>150</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>7</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>250</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>8</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>400</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>9</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>600</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>10</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <seuil>1000</seuil>
+                    <idcible>1</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
-            <id></id>
-            <name></name>
-            <logo></logo>
-            <cout></cout>
-            <croissance></croissance>
-            <revenu></revenu>
-            <vitesse></vitesse>
-            <quantite></quantite>
-            <timeleft></timeleft>
-            <managerUnlocked></managerUnlocked>
+            <id>2</id>
+            <name>gateau</name>
+            <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+            <cout>40</cout>
+            <croissance>1,15</croissance>
+            <revenu>40</revenu>
+            <vitesse>3000</vitesse>
+            <quantite>0</quantite>
+            <timeleft>0</timeleft>
+            <managerUnlocked>false</managerUnlocked>
             <palliers>
+                <pallier>
+                    <name>1</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>10</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>2</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>25</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>3</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>50</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>4</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>80</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>5</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>100</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>6</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>150</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>7</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>250</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>8</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>400</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>9</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>600</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
+                <pallier>
+                    <name>10</name>
+                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <seuil>1000</seuil>
+                    <idcible>2</idcible>
+                    <ratio>1,2</ratio>
+                    <typeratio>VITESSE</typeratio>
+                    <unlocked>false</unlocked>
+                </pallier>
             </palliers>
         </product>
     </products>
     <allunlocks>
     </allunlocks>
     <upgrades>
+        <palliers>
+            <pallier>
+                <name>madeleine x10</name>
+                <logo></logo>
+                <seuil>8000</seuil>
+                <idcible>1</idcible>
+                <ratio>10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>gateau x10</name>
+                <logo></logo>
+                <seuil>20000</seuil>
+                <idcible>2</idcible>
+                <ratio>10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>all x10</name>
+                <logo></logo>
+                <seuil>150000</seuil>
+                <idcible>0</idcible>
+                <ratio>10</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>madeleine x50</name>
+                <logo></logo>
+                <seuil>300000</seuil>
+                <idcible>1</idcible>
+                <ratio>50</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>gateau x50</name>
+                <logo></logo>
+                <seuil>500000</seuil>
+                <idcible>2</idcible>
+                <ratio>50</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>all x50</name>
+                <logo></logo>
+                <seuil>10000000</seuil>
+                <idcible>0</idcible>
+                <ratio>50</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>all time</name>
+                <logo></logo>
+                <seuil>200000</seuil>
+                <idcible>0</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>VITESSE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>madeleine x100</name>
+                <logo></logo>
+                <seuil>100000000</seuil>
+                <idcible>1</idcible>
+                <ratio>100</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>gateau x100</name>
+                <logo></logo>
+                <seuil>200000000</seuil>
+                <idcible>2</idcible>
+                <ratio>100</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>all x10</name>
+                <logo></logo>
+                <seuil>500000000</seuil>
+                <idcible>0</idcible>
+                <ratio>100</ratio>
+                <typeratio>GAIN</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
     </upgrades>
     <angelupgrades>
+        <palliers>
+            <pallier>
+                <name>angel x10</name>
+                <logo></logo>
+                <seuil>1000</seuil>
+                <idcible>-1</idcible>
+                <ratio>10</ratio>
+                <typeratio>ANGE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>angel x100</name>
+                <logo></logo>
+                <seuil>100000</seuil>
+                <idcible>-1</idcible>
+                <ratio>100</ratio>
+                <typeratio>ANGE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>angel x1000</name>
+                <logo></logo>
+                <seuil>500000</seuil>
+                <idcible>-1</idcible>
+                <ratio>1000</ratio>
+                <typeratio>ANGE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
+        
     </angelupgrades>
     <managers>
+        <palliers>
+            <pallier>
+                <name>Proust</name>
+                <logo></logo>
+                <seuil>1000</seuil>
+                <idcible>1</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Cyril Lignac</name>
+                <logo></logo>
+                <seuil>15000</seuil>
+                <idcible>2</idcible>
+                <ratio></ratio>
+                <typeratio></typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+            <pallier>
+                <name>Philippe Conticini</name>
+                <logo></logo>
+                <seuil>10000000000</seuil>
+                <idcible>2</idcible>
+                <ratio>1,2</ratio>
+                <typeratio>VITESSE</typeratio>
+                <unlocked>false</unlocked>
+            </pallier>
+        </palliers>
     </managers>
 
 </world>

@@ -3,36 +3,35 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Schema;
+package com.isis.adventureISIServer.ISISCapitalist;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import javax.xml.bind.JAXBException;
 
 /**
  *
  * @author Netto Léa
  */
+@Path("generic")
 public class Webservices {
-
-    @Path("generic")
-    public class Webservice {
 
         Services services;
 
-        public Webservice() {
+        public Webservices() {
             services = new Services();
         }
 
         @GET
         @Path("world")
-        @Produces(MediaType.APPLICATION_XML)
-        public Response getWorld() {
-            return Response.ok(services.getWorld()).build();
+        @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+        public Response getWorld() throws JAXBException {
+            return Response.ok(services.readWorldFromXML()).build();
         }
 
     }
 
-}
+

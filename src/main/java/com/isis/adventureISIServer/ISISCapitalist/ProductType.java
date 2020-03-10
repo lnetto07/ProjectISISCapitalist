@@ -6,7 +6,7 @@
 //
 
 
-package Schema
+package com.isis.adventureISIServer.ISISCapitalist
 ;
 
 import javax.xml.bind.annotation.XmlAccessType;

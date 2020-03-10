@@ -9,7 +9,7 @@ and open the template in the editor.
 <world
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
-    <name></name>
+    <name>CakeCap</name>
     <logo></logo>
     <money></money>
     <score></score>

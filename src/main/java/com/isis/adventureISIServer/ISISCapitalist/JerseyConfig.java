@@ -3,25 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Schema;
+package com.isis.adventureISIServer.ISISCapitalist;
 
 import javax.ws.rs.ApplicationPath;
+import org.glassfish.jersey.server.ResourceConfig;
 import org.springframework.stereotype.Component;
 
 /**
  *
  * @author Netto Léa
  */
-public class JerseyConfig {
-
-    @Component
-    @ApplicationPath("/adventureisis")
-    public class JerseyConfig extends ResourceConfig {
+@Component
+@ApplicationPath("/adventureisis")
+public class JerseyConfig extends ResourceConfig {
 
         public JerseyConfig() {
 
             register(Webservices.class);
+            register(CORSResponseFilter.class);
         }
     }
-
-}

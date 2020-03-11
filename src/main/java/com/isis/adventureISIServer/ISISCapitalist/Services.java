@@ -50,12 +50,40 @@ public class Services {
            //comparaison au monde sauvé la date du save
            //        si différentent save
                    
-        
+        return world;
     }
     
     public void majScore(World world){
         List<ProductType> products= world.getProducts().getProduct();
-        
+        long current=System.currentTimeMillis();
+        long lastupdate=world.getLastupdate();
+        long tpsMaj= current-lastupdate;
+        for (ProductType p:products){
+            if(p.isManagerUnlocked()){
+                int qtt= (int)tpsMaj/p.vitesse;
+                long tpsRestant=p.vitesse-(tpsMaj%p.vitesse);
+                double gain= qtt*p.revenu;
+                double money=world.getMoney();
+                world.setMoney(money+gain);
+                double score=world.getScore();
+                world.setScore(score+gain);
+                p.setTimeleft(tpsRestant);
+            }
+            else{
+                if(p.getTimeleft()!=0){
+                    if(p.getTimeleft()<tpsMaj){
+                        double score=world.getScore();
+                        world.setScore(score+p.revenu);
+                        double money=world.getMoney();
+                        world.setMoney(money+p.revenu);
+                    }
+                    else{
+                        long timeleft=p.getTimeleft();
+                        p.setTimeleft(timeleft-tpsMaj);
+                    }  
+                }
+            }
+        }
     }
 
     public void saveWorldToXml(World world, String username) throws FileNotFoundException, JAXBException {
@@ -128,13 +156,15 @@ public class Services {
         }
 
         // débloquer ce manager
+        manager.setUnlocked(true);
         // trouver le produit correspondant au manager
         ProductType product = findProductById(world, manager.getIdcible());
         if (product == null) {
             return false;
         }
-        manager.setUnlocked(true);
+        
         // débloquer le manager de ce produit
+        product.setManagerUnlocked(true);
         double cout= manager.getSeuil();
         double argent = world.getMoney();
         double argentRestant = argent - cout ;

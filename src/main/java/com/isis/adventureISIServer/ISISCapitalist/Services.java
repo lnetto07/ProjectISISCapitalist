@@ -72,10 +72,18 @@ public class Services {
         if (qtchange > 0) {
             // soustraire de l'argent du joueur le cout de la quantité
             // achetée et mettre à jour la quantité de product
-
+            double prix1= product.getCout();
+            double q=product.getCroissance();
+            double prix2=prix1*((1-Math.pow(q,qtchange))/(1-q));
+            double argent=world.getMoney();
+            double argentRestant= argent-prix2;
+            product.setQuantite(newproduct.getQuantite());
+            world.setMoney(argentRestant);
+           
         } else {
             // initialiser product.timeleft à product.vitesse
             // pour lancer la production
+            product.setTimeleft(product.getVitesse());
         }
         // sauvegarder les changements du monde
         saveWorldToXml(world,username);

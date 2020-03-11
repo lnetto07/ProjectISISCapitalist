@@ -44,6 +44,14 @@ public class Webservices {
             String username=request.getHeader("X-user");
             services.updateProduct(username,product); 
             }
+        
+        @PUT
+        @Path("manager")
+        @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+        public void putManager(@Context HttpServletRequest request, PallierType manager) throws JAXBException, FileNotFoundException{
+            String username=request.getHeader("X-user");
+            services.updateManager(username,manager); 
+            }
         }
 
             

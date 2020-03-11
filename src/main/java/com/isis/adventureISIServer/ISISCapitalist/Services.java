@@ -41,7 +41,21 @@ public class Services {
     }
 
     public World getWorld(String username) throws JAXBException {
-        return readWorldFromXML(username);
+        World world= readWorldFromXML(username);
+        long current=System.currentTimeMillis();
+        long lastupdate=world.getLastupdate();
+        if (!(lastupdate==current)){
+            
+        }
+           //comparaison au monde sauvé la date du save
+           //        si différentent save
+                   
+        
+    }
+    
+    public void majScore(World world){
+        List<ProductType> products= world.getProducts().getProduct();
+        
     }
 
     public void saveWorldToXml(World world, String username) throws FileNotFoundException, JAXBException {
@@ -72,33 +86,76 @@ public class Services {
         if (qtchange > 0) {
             // soustraire de l'argent du joueur le cout de la quantité
             // achetée et mettre à jour la quantité de product
-            double prix1= product.getCout();
-            double q=product.getCroissance();
-            double prix2=prix1*((1-Math.pow(q,qtchange))/(1-q));
-            double argent=world.getMoney();
-            double argentRestant= argent-prix2;
+            double prix1 = product.getCout();
+            double q = product.getCroissance();
+            double prix2 = prix1 * ((1 - Math.pow(q, qtchange)) / (1 - q));
+            double argent = world.getMoney();
+            double argentRestant = argent - prix2;
             product.setQuantite(newproduct.getQuantite());
             world.setMoney(argentRestant);
-           
+
         } else {
             // initialiser product.timeleft à product.vitesse
             // pour lancer la production
             product.setTimeleft(product.getVitesse());
         }
         // sauvegarder les changements du monde
-        saveWorldToXml(world,username);
+        saveWorldToXml(world, username);
         return true;
     }
 
     private ProductType findProductById(World world, int id) {
-        ProductType produit= null;
-        List<ProductType> products= world.getProducts().getProduct();
-        for (ProductType p: products){
-            if(p.getId()==id){
-                produit=p;
+        ProductType produit = null;
+        List<ProductType> products = world.getProducts().getProduct();
+        for (ProductType p : products) {
+            if (p.getId() == id) {
+                produit = p;
             }
         }
         return produit;
     }
 
+    // prend en paramètre le pseudo du joueur et le manager acheté.
+// renvoie false si l’action n’a pas pu être traitée
+    public Boolean updateManager(String username, PallierType newmanager) throws JAXBException, FileNotFoundException {
+        // aller chercher le monde qui correspond au joueur
+        World world = getWorld(username);
+        // trouver dans ce monde, le manager équivalent à celui passé
+        // en paramètre
+        PallierType manager = findManagerByName(world, newmanager.getName());
+        if (manager == null) {
+            return false;
+        }
+
+        // débloquer ce manager
+        // trouver le produit correspondant au manager
+        ProductType product = findProductById(world, manager.getIdcible());
+        if (product == null) {
+            return false;
+        }
+        manager.setUnlocked(true);
+        // débloquer le manager de ce produit
+        double cout= manager.getSeuil();
+        double argent = world.getMoney();
+        double argentRestant = argent - cout ;
+        world.setMoney(argentRestant);
+
+        // soustraire de l'argent du joueur le cout du manager
+        // sauvegarder les changements au monde
+        saveWorldToXml(world, username);
+        return true;
+    }
+
+    private PallierType findManagerByName(World world, String name) {
+        PallierType manager = null;
+        List<PallierType> managers = world.getManagers().getPallier();
+        for (PallierType m : managers) {
+            if (m.getName().equals(name)) {
+                manager = m;
+            }
+    }
+        return manager;
+    }
 }
+
+

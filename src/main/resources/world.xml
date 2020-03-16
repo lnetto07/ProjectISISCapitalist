@@ -10,7 +10,7 @@ and open the template in the editor.
     xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
     xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
     <name>CakeCap</name>
-    <logo></logo>
+    <logo>world.png</logo>
     <money></money>
     <score></score>
     <totalangels></totalangels>
@@ -32,7 +32,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>1</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>10</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -41,7 +41,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>2</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -50,7 +50,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>3</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -59,7 +59,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>4</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>80</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -68,7 +68,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>5</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -77,7 +77,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>6</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>150</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -86,7 +86,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>7</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>250</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -95,7 +95,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>8</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>400</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -104,7 +104,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>9</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>600</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -113,7 +113,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>10</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\madeleine.jpg</logo>
+                    <logo>madeleine.jpg</logo>
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio>1,2</ratio>
@@ -125,7 +125,7 @@ and open the template in the editor.
         <product>
             <id>2</id>
             <name>gateau</name>
-            <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+            <logo>gateau.png</logo>
             <cout>40</cout>
             <croissance>1,15</croissance>
             <revenu>40</revenu>
@@ -136,7 +136,7 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>1</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>10</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -145,7 +145,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>2</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>25</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -154,7 +154,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>3</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>50</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -163,7 +163,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>4</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>80</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -172,7 +172,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>5</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>100</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -181,7 +181,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>6</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>150</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -190,7 +190,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>7</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>250</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -199,7 +199,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>8</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>400</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -208,7 +208,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>9</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>600</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -217,7 +217,7 @@ and open the template in the editor.
                 </pallier>
                 <pallier>
                     <name>10</name>
-                    <logo>C:\Users\netto\Documents\ISIS\4A\ISISCapitalist\image\gateau.png</logo>
+                    <logo>gateau.png</logo>
                     <seuil>1000</seuil>
                     <idcible>2</idcible>
                     <ratio>1,2</ratio>
@@ -233,7 +233,7 @@ and open the template in the editor.
         <palliers>
             <pallier>
                 <name>madeleine x10</name>
-                <logo></logo>
+                <logo>madeleine.jpg</logo>
                 <seuil>8000</seuil>
                 <idcible>1</idcible>
                 <ratio>10</ratio>
@@ -242,7 +242,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>gateau x10</name>
-                <logo></logo>
+                <logo>gateau.png</logo>
                 <seuil>20000</seuil>
                 <idcible>2</idcible>
                 <ratio>10</ratio>
@@ -251,7 +251,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>all x10</name>
-                <logo></logo>
+                <logo>all.jpg</logo>
                 <seuil>150000</seuil>
                 <idcible>0</idcible>
                 <ratio>10</ratio>
@@ -260,7 +260,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>madeleine x50</name>
-                <logo></logo>
+                <logo>madeleine.jpg</logo>
                 <seuil>300000</seuil>
                 <idcible>1</idcible>
                 <ratio>50</ratio>
@@ -269,7 +269,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>gateau x50</name>
-                <logo></logo>
+                <logo>gateau.png</logo>
                 <seuil>500000</seuil>
                 <idcible>2</idcible>
                 <ratio>50</ratio>
@@ -278,7 +278,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>all x50</name>
-                <logo></logo>
+                <logo>all.jpg</logo>
                 <seuil>10000000</seuil>
                 <idcible>0</idcible>
                 <ratio>50</ratio>
@@ -287,7 +287,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>all time</name>
-                <logo></logo>
+                <logo>all.jpg</logo>
                 <seuil>200000</seuil>
                 <idcible>0</idcible>
                 <ratio>1,2</ratio>
@@ -296,7 +296,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>madeleine x100</name>
-                <logo></logo>
+                <logo>madeleine.jpg</logo>
                 <seuil>100000000</seuil>
                 <idcible>1</idcible>
                 <ratio>100</ratio>
@@ -305,7 +305,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>gateau x100</name>
-                <logo></logo>
+                <logo>gateau.png</logo>
                 <seuil>200000000</seuil>
                 <idcible>2</idcible>
                 <ratio>100</ratio>
@@ -314,7 +314,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>all x10</name>
-                <logo></logo>
+                <logo>all.jpg</logo>
                 <seuil>500000000</seuil>
                 <idcible>0</idcible>
                 <ratio>100</ratio>
@@ -327,7 +327,7 @@ and open the template in the editor.
         <palliers>
             <pallier>
                 <name>angel x10</name>
-                <logo></logo>
+                <logo>angel.png</logo>
                 <seuil>1000</seuil>
                 <idcible>-1</idcible>
                 <ratio>10</ratio>
@@ -336,7 +336,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>angel x100</name>
-                <logo></logo>
+                <logo>angel.png</logo>
                 <seuil>100000</seuil>
                 <idcible>-1</idcible>
                 <ratio>100</ratio>
@@ -345,7 +345,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>angel x1000</name>
-                <logo></logo>
+                <logo>angel.png</logo>
                 <seuil>500000</seuil>
                 <idcible>-1</idcible>
                 <ratio>1000</ratio>
@@ -358,8 +358,8 @@ and open the template in the editor.
     <managers>
         <palliers>
             <pallier>
-                <name>Proust</name>
-                <logo></logo>
+                <name>Marcel Proust</name>
+                <logo>proust.jpg</logo>
                 <seuil>1000</seuil>
                 <idcible>1</idcible>
                 <ratio></ratio>
@@ -368,7 +368,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Cyril Lignac</name>
-                <logo></logo>
+                <logo>lignac.jpg</logo>
                 <seuil>15000</seuil>
                 <idcible>2</idcible>
                 <ratio></ratio>
@@ -377,7 +377,7 @@ and open the template in the editor.
             </pallier>
             <pallier>
                 <name>Philippe Conticini</name>
-                <logo></logo>
+                <logo>conticini.jpg</logo>
                 <seuil>10000000000</seuil>
                 <idcible>2</idcible>
                 <ratio>1,2</ratio>

@@ -94,6 +94,23 @@ public class Services {
         m.marshal(world, output);
 
     }
+    
+    public void majPallier(ProductType product, PallierType p){
+        
+                p.setUnlocked(true);
+                if (p.getTyperatio()==TyperatioType.VITESSE){
+                    int vitesse=product.getVitesse();
+                    int ratio=(int)p.getRatio();
+                    int v2=vitesse*ratio;
+                    product.setVitesse(v2);
+                }
+                else{
+                    double revenu=product.getRevenu();
+                    double ratio=p.getRatio();
+                    double r2=revenu*ratio;
+                    product.setRevenu(r2);
+                }
+    }
 
     // prend en paramètre le pseudo du joueur et le produit
     // sur lequel une action a eu lieu (lancement manuel de production ou
@@ -126,6 +143,13 @@ public class Services {
             // initialiser product.timeleft à product.vitesse
             // pour lancer la production
             product.setTimeleft(product.getVitesse());
+        }
+        
+        List<PallierType> palliers=(List<PallierType>) product.getPalliers().getPallier();
+        for (PallierType p: palliers){
+            if (p.isUnlocked()==false && product.getQuantite()>=p.getSeuil()){
+                majPallier(product,p);
+            }
         }
         // sauvegarder les changements du monde
         saveWorldToXml(world, username);
@@ -186,6 +210,39 @@ public class Services {
     }
         return manager;
     }
+    
+   public boolean updateUpgrade(String username, PallierType upgrade) throws JAXBException{
+       World world= getWorld(username);
+       if (upgrade.isUnlocked()==false && world.getMoney()>=upgrade.getSeuil()){
+           if (upgrade.getIdcible()==0){
+               List<ProductType> products = world.getProducts().getProduct();
+               for (ProductType p :products){
+                   majPallier(p,upgrade);
+               }
+              return true;
+           }
+           else{
+               ProductType p=findProductById(world,upgrade.getIdcible());
+               majPallier(p, upgrade);
+           return true;
+           }
+       }
+       else{
+           return false;
+       }
+   }
+   
+   public World deleteWorld(String username) throws JAXBException {
+       World world=getWorld(username);
+       
+       return world;
+   }
+   
+   public double nombreAnges(World world){
+       double totalAnge=world.getTotalangels();
+       double nbAnge=(150*Math.sqrt(world.getScore()/Math.pow(10,15)))-totalAnge;
+       return nbAnge;
+   }
 }
 
 

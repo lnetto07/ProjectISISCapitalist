@@ -62,12 +62,22 @@ public class Webservices {
             services.updateUpgrade(username,upgrade); 
             }
         
+        @PUT
+        @Path("angel")
+        @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+        public void putAngel(@Context HttpServletRequest request, PallierType ange) throws JAXBException, FileNotFoundException{
+            String username=request.getHeader("X-user");
+            services.angelUpgrade(username,ange); 
+            }
+        
         @DELETE
         @Path("world")
         public void deleteWorld(@Context HttpServletRequest request) throws JAXBException, FileNotFoundException{
             String username=request.getHeader("X-user");
-            //services.updateUpgrade(username,upgrade); 
+            services.deleteWorld(username); 
             }
+        
+        
         }
 
             

@@ -58,12 +58,13 @@ public class Services {
         long current=System.currentTimeMillis();
         long lastupdate=world.getLastupdate();
         long tpsMaj= current-lastupdate;
+        int angeBonus=world.getAngelbonus();
         for (ProductType p:products){
             if(p.isManagerUnlocked()){
                 int qtt= (int)tpsMaj/p.vitesse;
                 long tpsRestant=p.vitesse-(tpsMaj%p.vitesse);
                 double gain= qtt*p.revenu;
-                double money=world.getMoney();
+                double money=p.getRevenu()*qtt*(1+world.getActiveangels()*angeBonus/100);
                 world.setMoney(money+gain);
                 double score=world.getScore();
                 world.setScore(score+gain);
@@ -232,16 +233,46 @@ public class Services {
        }
    }
    
-   public World deleteWorld(String username) throws JAXBException {
+   public void deleteWorld(String username) throws JAXBException, FileNotFoundException {
        World world=getWorld(username);
+       double angeActif=world.getActiveangels();
+       double angeTotal=world.getTotalangels();
+       double newAnges=nombreAnges(world);
+       angeActif=angeActif+newAnges;
+       angeTotal=angeTotal+newAnges;
+       double score=world.getScore();
        
-       return world;
+       JAXBContext cont = JAXBContext.newInstance(World.class);
+        Unmarshaller u = cont.createUnmarshaller();
+       InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
+       World monde;
+       monde = (World) u.unmarshal(input);
+       
+       monde.setActiveangels(angeActif);
+       monde.setTotalangels(angeTotal);
+       monde.setScore(score);
+       saveWorldToXml(monde, username);
    }
    
    public double nombreAnges(World world){
-       double totalAnge=world.getTotalangels();
-       double nbAnge=(150*Math.sqrt(world.getScore()/Math.pow(10,15)))-totalAnge;
+       double nbAnge = Math.round(150 * Math.sqrt(world.getScore()/ Math.pow(10, 15))) - world.getTotalangels();
        return nbAnge;
+   }
+   
+   public void angelUpgrade(String username, PallierType ange) throws JAXBException{
+       int angeSeuil=ange.getSeuil();
+       World world= getWorld(username);
+       double angeActif=world.getActiveangels();
+       double newAngeActif=angeActif-angeSeuil;
+       if(ange.getTyperatio()==TyperatioType.ANGE){
+           int angeBonus=world.getAngelbonus();
+           angeBonus+=angeBonus+ange.getRatio();
+           world.setAngelbonus(angeBonus);
+       }
+       else{
+           updateUpgrade(username, ange);
+          }
+       world.setActiveangels(newAngeActif);
    }
 }
 

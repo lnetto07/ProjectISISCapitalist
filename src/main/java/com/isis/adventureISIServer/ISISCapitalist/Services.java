@@ -40,17 +40,19 @@ public class Services {
 
     }
 
-    public World getWorld(String username) throws JAXBException {
+    public World getWorld(String username) throws JAXBException, FileNotFoundException {
         World world= readWorldFromXML(username);
         long current=System.currentTimeMillis();
         long lastupdate=world.getLastupdate();
         if (!(lastupdate==current)){
-            
+            return world;
         }
-           //comparaison au monde sauvé la date du save
-           //        si différentent save
-                   
+        majScore(world);
+        world.setLastupdate(current);
+        
+        saveWorldToXml(world, username);
         return world;
+      
     }
     
     public void majScore(World world){
@@ -212,7 +214,7 @@ public class Services {
         return manager;
     }
     
-   public boolean updateUpgrade(String username, PallierType upgrade) throws JAXBException{
+   public boolean updateUpgrade(String username, PallierType upgrade) throws JAXBException, FileNotFoundException{
        World world= getWorld(username);
        if (upgrade.isUnlocked()==false && world.getMoney()>=upgrade.getSeuil()){
            if (upgrade.getIdcible()==0){
@@ -259,7 +261,7 @@ public class Services {
        return nbAnge;
    }
    
-   public void angelUpgrade(String username, PallierType ange) throws JAXBException{
+   public void angelUpgrade(String username, PallierType ange) throws JAXBException, FileNotFoundException{
        int angeSeuil=ange.getSeuil();
        World world= getWorld(username);
        double angeActif=world.getActiveangels();

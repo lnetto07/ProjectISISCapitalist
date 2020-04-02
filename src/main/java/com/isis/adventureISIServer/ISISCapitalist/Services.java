@@ -169,6 +169,11 @@ public class Services {
         }
         return produit;
     }
+    
+    public double updateScore(String username) throws JAXBException, FileNotFoundException{
+        World world= getWorld(username);
+        return world.getScore();
+    }
 
     // prend en paramètre le pseudo du joueur et le manager acheté.
 // renvoie false si l’action n’a pas pu être traitée

@@ -39,6 +39,14 @@ public class Webservices {
             }
         
         @PUT
+        @Path("world")
+        @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+        public void putWorld(@Context HttpServletRequest request) throws JAXBException, FileNotFoundException{
+            String username=request.getHeader("X-user");
+            services.updateScore(username);
+        }
+        
+        @PUT
         @Path("product")
         @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
         public void putProduct(@Context HttpServletRequest request, ProductType product) throws JAXBException, FileNotFoundException{

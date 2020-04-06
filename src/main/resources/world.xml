@@ -11,19 +11,19 @@ and open the template in the editor.
     xsi:noNamespaceSchemaLocation='worldSchema.xsd'>
     <name>CakeCap</name>
     <logo>world.png</logo>
-    <money></money>
-    <score></score>
-    <totalangels></totalangels>
-    <activeangels></activeangels>
-    <angelbonus></angelbonus>
-    <lastupdate></lastupdate>
+    <money>0</money>
+    <score>0</score>
+    <totalangels>0</totalangels>
+    <activeangels>0</activeangels>
+    <angelbonus>0</angelbonus>
+    <lastupdate>0</lastupdate>
     <products>
         <product>
             <id>1</id>
             <name>Madeleine</name>
             <logo>madeleine.jpg</logo>
             <cout>0</cout>
-            <croissance>1,07</croissance>
+            <croissance>1.07</croissance>
             <revenu>1</revenu>
             <vitesse>500</vitesse>
             <quantite>0</quantite>
@@ -35,7 +35,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>10</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -44,7 +44,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>25</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -53,7 +53,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>50</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -62,7 +62,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>80</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -71,7 +71,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>100</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -80,7 +80,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>150</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -89,7 +89,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>250</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -98,7 +98,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>400</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -107,7 +107,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>600</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -116,7 +116,7 @@ and open the template in the editor.
                     <logo>madeleine.jpg</logo>
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -127,7 +127,7 @@ and open the template in the editor.
             <name>gateau</name>
             <logo>gateau.png</logo>
             <cout>40</cout>
-            <croissance>1,15</croissance>
+            <croissance>1.07</croissance>
             <revenu>40</revenu>
             <vitesse>3000</vitesse>
             <quantite>0</quantite>
@@ -139,7 +139,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>10</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -148,7 +148,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>25</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -157,7 +157,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>50</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -166,7 +166,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>80</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -175,7 +175,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>100</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -184,7 +184,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>150</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -193,7 +193,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>250</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -202,7 +202,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>400</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -211,7 +211,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>600</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -220,7 +220,7 @@ and open the template in the editor.
                     <logo>gateau.png</logo>
                     <seuil>1000</seuil>
                     <idcible>2</idcible>
-                    <ratio>1,2</ratio>
+                    <ratio>1.2</ratio>
                     <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
@@ -233,7 +233,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>10</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -242,7 +242,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>25</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -251,7 +251,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>50</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -260,7 +260,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>80</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -269,7 +269,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>100</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -278,7 +278,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>150</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -287,7 +287,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>250</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -296,7 +296,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>400</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -305,7 +305,7 @@ and open the template in the editor.
             <logo></logo>
             <seuil>600</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
@@ -314,13 +314,12 @@ and open the template in the editor.
             <logo></logo>
             <seuil>1000</seuil>
             <idcible>0</idcible>
-            <ratio>1,2</ratio>
+            <ratio>1.2</ratio>
             <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
-        <palliers>
             <pallier>
                 <name>madeleine x10</name>
                 <logo>madeleine.jpg</logo>
@@ -380,7 +379,7 @@ and open the template in the editor.
                 <logo>all.jpg</logo>
                 <seuil>200000</seuil>
                 <idcible>0</idcible>
-                <ratio>1,2</ratio>
+                <ratio>1.2</ratio>
                 <typeratio>VITESSE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
@@ -411,10 +410,8 @@ and open the template in the editor.
                 <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
-        </palliers>
     </upgrades>
     <angelupgrades>
-        <palliers>
             <pallier>
                 <name>angel x10</name>
                 <logo>angel.png</logo>
@@ -441,19 +438,16 @@ and open the template in the editor.
                 <ratio>1000</ratio>
                 <typeratio>ANGE</typeratio>
                 <unlocked>false</unlocked>
-            </pallier>
-        </palliers>
-        
+            </pallier>  
     </angelupgrades>
     <managers>
-        <palliers>
             <pallier>
                 <name>Marcel Proust</name>
                 <logo>proust.jpg</logo>
                 <seuil>1000</seuil>
                 <idcible>1</idcible>
-                <ratio></ratio>
-                <typeratio></typeratio>
+                <ratio>0.0</ratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
@@ -461,20 +455,19 @@ and open the template in the editor.
                 <logo>lignac.jpg</logo>
                 <seuil>15000</seuil>
                 <idcible>2</idcible>
-                <ratio></ratio>
-                <typeratio></typeratio>
+                <ratio>0.0</ratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
                 <name>Philippe Conticini</name>
                 <logo>conticini.jpg</logo>
-                <seuil>10000000000</seuil>
+                <seuil>1000000000</seuil>
                 <idcible>2</idcible>
-                <ratio>1,2</ratio>
-                <typeratio>VITESSE</typeratio>
+                <ratio>0.0</ratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
-        </palliers>
     </managers>
 
 </world>

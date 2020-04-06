@@ -27,7 +27,6 @@ public class Services {
         JAXBContext cont = JAXBContext.newInstance(World.class);
         Unmarshaller u = cont.createUnmarshaller();
         World world;
-
         try {
             File file = new File(fileName);
             world = (World) u.unmarshal(file);
@@ -35,7 +34,6 @@ public class Services {
             InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
             world = (World) u.unmarshal(input);
         }
-
         return world;
 
     }

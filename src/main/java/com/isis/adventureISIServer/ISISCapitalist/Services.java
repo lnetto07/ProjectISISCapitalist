@@ -21,71 +21,98 @@ import javax.xml.bind.Unmarshaller;
  * @author Netto Léa
  */
 public class Services {
+    InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
+    
+    public World readWorldFromXml(String username) throws JAXBException {
+        String filename = username + "-world.xml";
 
-    public World readWorldFromXML(String username) throws JAXBException {
-        String fileName = username + "-world.xml";
-        JAXBContext cont = JAXBContext.newInstance(World.class);
-        Unmarshaller u = cont.createUnmarshaller();
-        World world;
         try {
-            File file = new File(fileName);
-            world = (World) u.unmarshal(file);
+            File temp = new File(filename);
+            JAXBContext cont = JAXBContext.newInstance(World.class);
+            Unmarshaller u = cont.createUnmarshaller();
+            World world = (World) u.unmarshal(temp);
+            return world;
         } catch (Exception e) {
-            InputStream input = getClass().getClassLoader().getResourceAsStream("world.xml");
-            world = (World) u.unmarshal(input);
+           
+            //Unmarwhaller
+            JAXBContext cont = JAXBContext.newInstance(World.class);
+            Unmarshaller u = cont.createUnmarshaller();
+            World world = (World) u.unmarshal(input);
+            System.out.println(e);
+            return world;
         }
-        return world;
 
     }
 
     public World getWorld(String username) throws JAXBException, FileNotFoundException {
-        World world= readWorldFromXML(username);
-        long current=System.currentTimeMillis();
-        long lastupdate=world.getLastupdate();
-        if (!(lastupdate==current)){
-            return world;
+        //recupere date courante
+        //regarde le monde stocké
+        //comparer la date de la dernière mise à jour
+        //lastupdate si différent on save
+        World world = readWorldFromXml(username);
+        long timeCurrent = System.currentTimeMillis();
+        long dateDerniere = world.getLastupdate();
+        if(dateDerniere==timeCurrent){
+             return world; 
         }
-        majScore(world);
-        world.setLastupdate(current);
+        world = majScore(world);
+        world.setLastupdate(System.currentTimeMillis());
         
-        saveWorldToXml(world, username);
-        return world;
-      
+       // saveWorldToXml(world,username);
+        return world; 
+        
+        
+
+       
     }
     
-    public void majScore(World world){
-        List<ProductType> products= world.getProducts().getProduct();
-        long current=System.currentTimeMillis();
-        long lastupdate=world.getLastupdate();
-        long tpsMaj= current-lastupdate;
-        int angeBonus=world.getAngelbonus();
-        for (ProductType p:products){
-            if(p.isManagerUnlocked()){
-                int qtt= (int)tpsMaj/p.vitesse;
-                long tpsRestant=p.vitesse-(tpsMaj%p.vitesse);
-                double gain= qtt*p.revenu;
-                double money=p.getRevenu()*qtt*(1+world.getActiveangels()*angeBonus/100);
-                world.setMoney(money+gain);
-                double score=world.getScore();
-                world.setScore(score+gain);
-                p.setTimeleft(tpsRestant);
+     public World majScore(World world){
+
+        List<ProductType> products = world.getProducts().getProduct();
+        long timeCurrent = System.currentTimeMillis();
+        long dateDerniere = world.getLastupdate();
+        long delta = timeCurrent-dateDerniere;
+        
+        
+        for (ProductType p : products) {
+            if(p.isManagerUnlocked())  {
+                int angelBonus = world.getAngelbonus();
+                int tempsProduit=p.getVitesse();
+                int nbreProduit= (int) (delta/tempsProduit);
+                long tempsRestant=p.getVitesse()-(delta%tempsProduit);
+                p.setTimeleft(tempsRestant);               
+                double argent = p.getRevenu()*nbreProduit*(1+world.getActiveangels()*angelBonus/100);
+               //double angeBonus = Math.pow(world.getAngelbonus(), world.getActiveangels());
+               //double argent = p.getRevenu() * p.getQuantite() * angeBonus;
+                world.setMoney(world.getMoney()+argent);
+                world.setScore(world.getScore()+argent);
+                long tempsrestant = tempsProduit * (nbreProduit + 1) - delta;
+                p.setTimeleft(tempsrestant);
             }
             else{
                 if(p.getTimeleft()!=0){
-                    if(p.getTimeleft()<tpsMaj){
-                        double score=world.getScore();
-                        world.setScore(score+p.revenu);
-                        double money=world.getMoney();
-                        world.setMoney(money+p.revenu);
+                    if(p.getTimeleft()<delta){
+                        double angeBonus = Math.pow(world.getAngelbonus(), world.getActiveangels());
+                        double argent = p.getRevenu() * p.getQuantite() * angeBonus;
+                        double score = world.getScore();
+                        world.setScore(score+argent);
+                        double money = world.getMoney();
+                        world.setMoney(money+argent);  
+                        p.setTimeleft(0);
+                        delta -= p.getTimeleft();
                     }
                     else{
-                        long timeleft=p.getTimeleft();
-                        p.setTimeleft(timeleft-tpsMaj);
-                    }  
+                        long timeleft = p.getTimeleft();
+                        p.setTimeleft(timeleft-delta);
+                        delta = 0;
+                    }
                 }
+                
             }
         }
-    }
+        return world;
+       
+}
 
     public void saveWorldToXml(World world, String username) throws FileNotFoundException, JAXBException {
         String fileName = username + "-world.xml";
@@ -138,6 +165,7 @@ public class Services {
             double argent = world.getMoney();
             double argentRestant = argent - prix2;
             product.setQuantite(newproduct.getQuantite());
+            System.out.println("quantité");
             world.setMoney(argentRestant);
 
         } else {

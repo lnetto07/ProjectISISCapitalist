@@ -977,7 +977,7 @@ and open the template in the editor.
             <pallier>
                 <name>Anne-Sophie Pic</name>
                 <logo>pic.jpg</logo>
-                <seuil>100</seuil>
+                <seuil>1000</seuil>
                 <idcible>1</idcible>
                 <ratio>0.0</ratio>
                 <typeratio>MANAGER</typeratio>
@@ -986,7 +986,7 @@ and open the template in the editor.
             <pallier>
                 <name>Christophe Michalak</name>
                 <logo>michalak.jpg</logo>
-                <seuil>1000000</seuil>
+                <seuil>5000</seuil>
                 <idcible>2</idcible>
                 <ratio>0.0</ratio>
                 <typeratio>MANAGER</typeratio>
@@ -995,7 +995,7 @@ and open the template in the editor.
             <pallier>
                 <name>Cyril Lignac</name>
                 <logo>lignac.jpg</logo>
-                <seuil>10000000</seuil>
+                <seuil>10000</seuil>
                 <idcible>3</idcible>
                 <ratio>0.0</ratio>
                 <typeratio>MANAGER</typeratio>
@@ -1004,7 +1004,7 @@ and open the template in the editor.
             <pallier>
                 <name>Claire Heitzler</name>
                 <logo>heitzler.jpg</logo>
-                <seuil>700000000</seuil>
+                <seuil>20000</seuil>
                 <idcible>4</idcible>
                 <ratio>0.0</ratio>
                 <typeratio>MANAGER</typeratio>
@@ -1013,7 +1013,7 @@ and open the template in the editor.
             <pallier>
                 <name>Pierre Hermé</name>
                 <logo>herme.jpg</logo>
-                <seuil>250000000</seuil>
+                <seuil>100000</seuil>
                 <idcible>5</idcible>
                 <ratio>0.0</ratio>
                 <typeratio>MANAGER</typeratio>
@@ -1022,7 +1022,7 @@ and open the template in the editor.
             <pallier>
                 <name>Philippe Conticini</name>
                 <logo>conticini.jpg</logo>
-                <seuil>1000000000</seuil>
+                <seuil>250000</seuil>
                 <idcible>6</idcible>
                 <ratio>0.0</ratio>
                 <typeratio>MANAGER</typeratio>

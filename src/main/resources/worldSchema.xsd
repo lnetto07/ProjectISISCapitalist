@@ -99,10 +99,10 @@
     
     <xs:simpleType name="typeratioType">
         <xs:restriction base="xs:string">
-            <xs:enumeration value="VITESSE"/>
-            <xs:enumeration value="GAIN"/> 
-            <xs:enumeration value="ANGE"/>
-            <xs:enumeration value="MANAGER"/>
+            <xs:enumeration value="vitesse"/>
+            <xs:enumeration value="gain"/> 
+            <xs:enumeration value="ange"/>
+            <xs:enumeration value="manager"/>
         </xs:restriction>
     </xs:simpleType>
     

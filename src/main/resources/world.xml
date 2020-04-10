@@ -22,11 +22,11 @@ and open the template in the editor.
             <id>1</id>
             <name>Madeleine</name>
             <logo>madeleine.png</logo>
-            <cout>0</cout>
+            <cout>1</cout>
             <croissance>1.07</croissance>
             <revenu>1</revenu>
             <vitesse>500</vitesse>
-            <quantite>0</quantite>
+            <quantite>1</quantite>
             <timeleft>0</timeleft>
             <managerUnlocked>false</managerUnlocked>
             <palliers>
@@ -36,7 +36,7 @@ and open the template in the editor.
                     <seuil>10</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -45,7 +45,7 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -54,7 +54,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -63,7 +63,7 @@ and open the template in the editor.
                     <seuil>80</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -72,7 +72,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -81,7 +81,7 @@ and open the template in the editor.
                     <seuil>150</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -90,7 +90,7 @@ and open the template in the editor.
                     <seuil>250</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -99,7 +99,7 @@ and open the template in the editor.
                     <seuil>400</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -108,7 +108,7 @@ and open the template in the editor.
                     <seuil>600</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -117,14 +117,14 @@ and open the template in the editor.
                     <seuil>1000</seuil>
                     <idcible>1</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>2</id>
-            <name>gateau</name>
+            <name>Gâteau</name>
             <logo>gateau.png</logo>
             <cout>20</cout>
             <croissance>1.07</croissance>
@@ -140,7 +140,7 @@ and open the template in the editor.
                     <seuil>10</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -149,7 +149,7 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -158,7 +158,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -167,7 +167,7 @@ and open the template in the editor.
                     <seuil>80</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -176,7 +176,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -185,7 +185,7 @@ and open the template in the editor.
                     <seuil>150</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -194,7 +194,7 @@ and open the template in the editor.
                     <seuil>250</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -203,7 +203,7 @@ and open the template in the editor.
                     <seuil>400</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -212,7 +212,7 @@ and open the template in the editor.
                     <seuil>600</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -221,15 +221,15 @@ and open the template in the editor.
                     <seuil>1000</seuil>
                     <idcible>2</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>3</id>
-            <name>cookie</name>
-            <logo>cookie.jpg</logo>
+            <name>Cookie</name>
+            <logo>cookie.png</logo>
             <cout>60</cout>
             <croissance>1.07</croissance>
             <revenu>50</revenu>
@@ -240,99 +240,99 @@ and open the template in the editor.
             <palliers>
                 <pallier>
                     <name>1</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>10</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>2</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>25</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>3</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>50</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>4</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>80</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>5</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>100</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>6</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>150</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>7</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>250</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>8</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>400</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>9</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>600</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
                     <name>10</name>
-                    <logo>cookie.jpg</logo>
+                    <logo>cookie.png</logo>
                     <seuil>1000</seuil>
                     <idcible>3</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>4</id>
-            <name>cupcake</name>
+            <name>Cupcake</name>
             <logo>cupcake.png</logo>
             <cout>500</cout>
             <croissance>1.07</croissance>
@@ -348,7 +348,7 @@ and open the template in the editor.
                     <seuil>10</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -357,7 +357,7 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -366,7 +366,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -375,7 +375,7 @@ and open the template in the editor.
                     <seuil>80</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -384,7 +384,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -393,7 +393,7 @@ and open the template in the editor.
                     <seuil>150</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -402,7 +402,7 @@ and open the template in the editor.
                     <seuil>250</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -411,7 +411,7 @@ and open the template in the editor.
                     <seuil>400</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -420,7 +420,7 @@ and open the template in the editor.
                     <seuil>600</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -429,14 +429,14 @@ and open the template in the editor.
                     <seuil>1000</seuil>
                     <idcible>4</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>5</id>
-            <name>millefeuille</name>
+            <name>Millefeuille</name>
             <logo>millefeuille.png</logo>
             <cout>2000</cout>
             <croissance>1.07</croissance>
@@ -452,7 +452,7 @@ and open the template in the editor.
                     <seuil>10</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -461,7 +461,7 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -470,7 +470,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -479,7 +479,7 @@ and open the template in the editor.
                     <seuil>80</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -488,7 +488,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -497,7 +497,7 @@ and open the template in the editor.
                     <seuil>150</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -506,7 +506,7 @@ and open the template in the editor.
                     <seuil>250</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -515,7 +515,7 @@ and open the template in the editor.
                     <seuil>400</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -524,7 +524,7 @@ and open the template in the editor.
                     <seuil>600</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -533,14 +533,14 @@ and open the template in the editor.
                     <seuil>1000</seuil>
                     <idcible>5</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
         </product>
         <product>
             <id>6</id>
-            <name>tarteCitrons</name>
+            <name>TarteCitrons</name>
             <logo>tarteCitrons.png</logo>
             <cout>10000</cout>
             <croissance>1.07</croissance>
@@ -556,7 +556,7 @@ and open the template in the editor.
                     <seuil>10</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -565,7 +565,7 @@ and open the template in the editor.
                     <seuil>25</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -574,7 +574,7 @@ and open the template in the editor.
                     <seuil>50</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -583,7 +583,7 @@ and open the template in the editor.
                     <seuil>80</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -592,7 +592,7 @@ and open the template in the editor.
                     <seuil>100</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -601,7 +601,7 @@ and open the template in the editor.
                     <seuil>150</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -610,7 +610,7 @@ and open the template in the editor.
                     <seuil>250</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -619,7 +619,7 @@ and open the template in the editor.
                     <seuil>400</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -628,7 +628,7 @@ and open the template in the editor.
                     <seuil>600</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
                 <pallier>
@@ -637,7 +637,7 @@ and open the template in the editor.
                     <seuil>1000</seuil>
                     <idcible>6</idcible>
                     <ratio>1.2</ratio>
-                    <typeratio>vitesse</typeratio>
+                    <typeratio>VITESSE</typeratio>
                     <unlocked>false</unlocked>
                 </pallier>
             </palliers>
@@ -650,7 +650,7 @@ and open the template in the editor.
             <seuil>10</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -659,7 +659,7 @@ and open the template in the editor.
             <seuil>25</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -668,7 +668,7 @@ and open the template in the editor.
             <seuil>50</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -677,7 +677,7 @@ and open the template in the editor.
             <seuil>80</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -686,7 +686,7 @@ and open the template in the editor.
             <seuil>100</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -695,7 +695,7 @@ and open the template in the editor.
             <seuil>150</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -704,7 +704,7 @@ and open the template in the editor.
             <seuil>250</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -713,7 +713,7 @@ and open the template in the editor.
             <seuil>400</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -722,7 +722,7 @@ and open the template in the editor.
             <seuil>600</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
         <pallier>
@@ -731,245 +731,245 @@ and open the template in the editor.
             <seuil>1000</seuil>
             <idcible>0</idcible>
             <ratio>1.2</ratio>
-            <typeratio>vitesse</typeratio>
+            <typeratio>VITESSE</typeratio>
             <unlocked>false</unlocked>
         </pallier>
     </allunlocks>
     <upgrades>
             <pallier>
-                <name>madeleine x10</name>
+                <name>Madeleine x10</name>
                 <logo>madeleine.png</logo>
                 <seuil>8000</seuil>
                 <idcible>1</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>gateau x10</name>
+                <name>Gâteau x10</name>
                 <logo>gateau.png</logo>
                 <seuil>20000</seuil>
                 <idcible>2</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>cookie x10</name>
+                <name>Cookie x10</name>
                 <logo>cookie.png</logo>
                 <seuil>40000</seuil>
                 <idcible>3</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>cupcake x10</name>
+                <name>Cupcake x10</name>
                 <logo>cupcake.png</logo>
                 <seuil>70000</seuil>
                 <idcible>4</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
 			<pallier>
-                <name>millefeuille x10</name>
+                <name>Millefeuille x10</name>
                 <logo>millefeuille.png</logo>
                 <seuil>100000</seuil>
                 <idcible>5</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>tarteCitrons x10</name>
+                <name>TarteCitrons x10</name>
                 <logo>tarteCitrons.png</logo>
                 <seuil>150000</seuil>
                 <idcible>6</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>all x10</name>
+                <name>All x10</name>
                 <logo>all.png</logo>
                 <seuil>170000</seuil>
                 <idcible>0</idcible>
                 <ratio>10</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>madeleine x50</name>
+                <name>Madeleine x50</name>
                 <logo>madeleine.png</logo>
                 <seuil>300000</seuil>
                 <idcible>1</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>gateau x50</name>
+                <name>Gâteau x50</name>
                 <logo>gateau.png</logo>
                 <seuil>500000</seuil>
                 <idcible>2</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>cookie x50</name>
+                <name>Cookie x50</name>
                 <logo>cookie.png</logo>
                 <seuil>700000</seuil>
                 <idcible>3</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>cupcake x50</name>
+                <name>Cupcake x50</name>
                 <logo>cupcake.png</logo>
                 <seuil>1000000</seuil>
                 <idcible>4</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>millefeuille x50</name>
+                <name>Millefeuille x50</name>
                 <logo>millefeuille.png</logo>
                 <seuil>1250000</seuil>
                 <idcible>5</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>tarteCitrons x50</name>
+                <name>TarteCitrons x50</name>
                 <logo>tarteCitrons.png</logo>
                 <seuil>1600000</seuil>
                 <idcible>6</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>all x50</name>
+                <name>All x50</name>
                 <logo>all.png</logo>
                 <seuil>10000000</seuil>
                 <idcible>0</idcible>
                 <ratio>50</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>all time</name>
+                <name>All time</name>
                 <logo>all.png</logo>
                 <seuil>20000000</seuil>
                 <idcible>0</idcible>
                 <ratio>1.2</ratio>
-                <typeratio>vitesse</typeratio>
+                <typeratio>VITESSE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>madeleine x100</name>
+                <name>Madeleine x100</name>
                 <logo>madeleine.png</logo>
                 <seuil>100000000</seuil>
                 <idcible>1</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>gateau x100</name>
+                <name>Gâteau x100</name>
                 <logo>gateau.png</logo>
                 <seuil>200000000</seuil>
                 <idcible>2</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>cookie x100</name>
+                <name>Cookie x100</name>
                 <logo>cookie.png</logo>
                 <seuil>400000000</seuil>
                 <idcible>3</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>cupcake x100</name>
+                <name>Cupcake x100</name>
                 <logo>cupcake.png</logo>
                 <seuil>600000000</seuil>
                 <idcible>4</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>millefeuille x100</name>
+                <name>Millefeuille x100</name>
                 <logo>millefeuille.png</logo>
                 <seuil>800000000</seuil>
                 <idcible>5</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>tarteCitrons x100</name>
+                <name>TarteCitrons x100</name>
                 <logo>tarteCitrons.png</logo>
                 <seuil>900000000</seuil>
                 <idcible>2</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>all x100</name>
+                <name>All x100</name>
                 <logo>all.png</logo>
                 <seuil>1000000000</seuil>
                 <idcible>0</idcible>
                 <ratio>100</ratio>
-                <typeratio>gain</typeratio>
+                <typeratio>GAIN</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
     </upgrades>
     <angelupgrades>
             <pallier>
-                <name>angel x10</name>
+                <name>Angel x10</name>
                 <logo>angel.png</logo>
                 <seuil>1000</seuil>
                 <idcible>-1</idcible>
                 <ratio>10</ratio>
-                <typeratio>ange</typeratio>
+                <typeratio>ANGE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>angel x100</name>
+                <name>Angel x100</name>
                 <logo>angel.png</logo>
                 <seuil>100000</seuil>
                 <idcible>-1</idcible>
                 <ratio>100</ratio>
-                <typeratio>ange</typeratio>
+                <typeratio>ANGE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>angel x1000</name>
+                <name>Angel x1000</name>
                 <logo>angel.png</logo>
                 <seuil>500000</seuil>
                 <idcible>-1</idcible>
                 <ratio>1000</ratio>
-                <typeratio>ange</typeratio>
+                <typeratio>ANGE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
-                <name>angel x10000</name>
+                <name>Angel x10000</name>
                 <logo>angel.png</logo>
                 <seuil>100000000</seuil>
                 <idcible>-1</idcible>
                 <ratio>10000</ratio>
-                <typeratio>ange</typeratio>
+                <typeratio>ANGE</typeratio>
                 <unlocked>false</unlocked>
             </pallier>     
     </angelupgrades>
@@ -977,10 +977,10 @@ and open the template in the editor.
             <pallier>
                 <name>Anne-Sophie Pic</name>
                 <logo>pic.jpg</logo>
-                <seuil>10000</seuil>
+                <seuil>100</seuil>
                 <idcible>1</idcible>
                 <ratio>0.0</ratio>
-                <typeratio>manager</typeratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
@@ -989,7 +989,7 @@ and open the template in the editor.
                 <seuil>1000000</seuil>
                 <idcible>2</idcible>
                 <ratio>0.0</ratio>
-                <typeratio>manager</typeratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
@@ -998,7 +998,7 @@ and open the template in the editor.
                 <seuil>10000000</seuil>
                 <idcible>3</idcible>
                 <ratio>0.0</ratio>
-                <typeratio>manager</typeratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
@@ -1007,7 +1007,7 @@ and open the template in the editor.
                 <seuil>700000000</seuil>
                 <idcible>4</idcible>
                 <ratio>0.0</ratio>
-                <typeratio>manager</typeratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
@@ -1016,7 +1016,7 @@ and open the template in the editor.
                 <seuil>250000000</seuil>
                 <idcible>5</idcible>
                 <ratio>0.0</ratio>
-                <typeratio>manager</typeratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
             <pallier>
@@ -1025,7 +1025,7 @@ and open the template in the editor.
                 <seuil>1000000000</seuil>
                 <idcible>6</idcible>
                 <ratio>0.0</ratio>
-                <typeratio>manager</typeratio>
+                <typeratio>MANAGER</typeratio>
                 <unlocked>false</unlocked>
             </pallier>
     </managers>

@@ -30,14 +30,16 @@ public class Webservices {
             services = new Services();
         }
 
-        @GET
-        @Path("world")
-        @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
-        public Response getXML(@Context HttpServletRequest request) throws JAXBException{
-            String username=request.getHeader("X-user");
-            return Response.ok(services.readWorldFromXML(username)).build(); 
-            }
-        
+         @GET
+    @Path("world")
+    @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public Response getXML(@Context HttpServletRequest request) throws JAXBException, FileNotFoundException {
+        String username = request.getHeader("X-user");
+        World world = services.getWorld(username);
+        services.saveWorldToXml(world, username);
+        return Response.ok(world).build();
+    }
+    
         @PUT
         @Path("world")
         @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
